@@ -17,6 +17,8 @@
 		A06D59661F2048DD00D07AD0 /* LDD_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A06D59651F2048DD00D07AD0 /* LDD_______UITests.m */; };
 		A06D59751F20495A00D07AD0 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06D59741F20495A00D07AD0 /* SecondController.m */; };
 		A06D59781F20496500D07AD0 /* LDDNavTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A06D59771F20496500D07AD0 /* LDDNavTransition.m */; };
+		A0DABCFD2234E2D40079FC81 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DABCFC2234E2D40079FC81 /* Person.m */; };
+		A0DABD002234E2E90079FC81 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DABCFF2234E2E90079FC81 /* Son.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		A06D59741F20495A00D07AD0 /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
 		A06D59761F20496500D07AD0 /* LDDNavTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDNavTransition.h; sourceTree = "<group>"; };
 		A06D59771F20496500D07AD0 /* LDDNavTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDNavTransition.m; sourceTree = "<group>"; };
+		A0DABCFB2234E2D40079FC81 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A0DABCFC2234E2D40079FC81 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A0DABCFE2234E2E90079FC81 /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		A0DABCFF2234E2E90079FC81 /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 		A06D59341F2048DD00D07AD0 = {
 			isa = PBXGroup;
 			children = (
+				A0DABCFA2234E2B70079FC81 /* TestGit */,
 				A06D593F1F2048DD00D07AD0 /* LDD自定义转场练习 */,
 				A06D59591F2048DD00D07AD0 /* LDD自定义转场练习Tests */,
 				A06D59641F2048DD00D07AD0 /* LDD自定义转场练习UITests */,
@@ -172,6 +179,17 @@
 				A06D59511F2048DD00D07AD0 /* Info.plist */,
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		A0DABCFA2234E2B70079FC81 /* TestGit */ = {
+			isa = PBXGroup;
+			children = (
+				A0DABCFB2234E2D40079FC81 /* Person.h */,
+				A0DABCFC2234E2D40079FC81 /* Person.m */,
+				A0DABCFE2234E2E90079FC81 /* Son.h */,
+				A0DABCFF2234E2E90079FC81 /* Son.m */,
+			);
+			path = TestGit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0DABD002234E2E90079FC81 /* Son.m in Sources */,
+				A0DABCFD2234E2D40079FC81 /* Person.m in Sources */,
 				A06D59481F2048DD00D07AD0 /* ViewController.m in Sources */,
 				A06D59751F20495A00D07AD0 /* SecondController.m in Sources */,
 				A06D59451F2048DD00D07AD0 /* AppDelegate.m in Sources */,
@@ -543,6 +563,7 @@
 				A06D596C1F2048DD00D07AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A06D596D1F2048DD00D07AD0 /* Build configuration list for PBXNativeTarget "LDD自定义转场练习Tests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +572,7 @@
 				A06D596F1F2048DD00D07AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A06D59701F2048DD00D07AD0 /* Build configuration list for PBXNativeTarget "LDD自定义转场练习UITests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +581,7 @@
 				A06D59721F2048DD00D07AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
